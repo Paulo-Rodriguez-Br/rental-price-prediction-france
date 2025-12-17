@@ -1,0 +1,117 @@
+2025-12-17 02:27:56,965 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=linear regression).
+2025-12-17 02:27:56,966 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 02:27:56,983 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 4) | Test=(16375, 4)
+2025-12-17 02:27:56,983 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:27:56,984 [INFO] RentalRegression.RentalRegression: Model built: Linear Regression
+2025-12-17 02:27:56,989 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:27:57,406 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 02:28:02,353 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.6718 | std=0.0158 (cv=5)
+2025-12-17 02:28:02,354 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.6715 | Test R2=0.6821 | CV R2=0.6718
+2025-12-17 02:28:02,355 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 02:28:02,356 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 02:28:02,356 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 02:28:02,379 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 4) | Test=(16375, 4)
+2025-12-17 02:28:02,380 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:28:02,381 [INFO] RentalRegression.RentalRegression: Model built: Random Forest
+2025-12-17 02:28:02,381 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:29:10,061 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 02:31:02,112 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8296 | std=0.0041 (cv=5)
+2025-12-17 02:31:02,114 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.9105 | Test R2=0.8336 | CV R2=0.8296
+2025-12-17 02:31:02,115 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 02:31:15,235 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 02:31:15,235 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 02:31:15,247 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 3) | Test=(16375, 3)
+2025-12-17 02:31:15,247 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:31:15,247 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Rooms
+2025-12-17 02:31:15,247 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:32:21,449 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 02:34:12,071 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8165 | std=0.0036 (cv=5)
+2025-12-17 02:34:12,072 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8742 | Test R2=0.8225 | CV R2=0.8165
+2025-12-17 02:34:12,072 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 02:34:20,655 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 02:34:20,655 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept']
+2025-12-17 02:34:20,671 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 3) | Test=(16375, 3)
+2025-12-17 02:34:20,671 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:34:20,671 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Property
+2025-12-17 02:34:20,672 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:35:26,506 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 02:37:05,467 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8130 | std=0.0047 (cv=5)
+2025-12-17 02:37:05,468 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8915 | Test R2=0.8184 | CV R2=0.8130
+2025-12-17 02:37:05,469 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 02:37:14,785 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 02:37:14,785 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 02:37:14,800 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(62324, 4) | Test=(15582, 4)
+2025-12-17 02:37:14,801 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:37:14,801 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Outliers (2.5/97.5)
+2025-12-17 02:37:14,802 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:38:18,740 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 02:39:54,409 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.7971 | std=0.0039 (cv=5)
+2025-12-17 02:39:54,412 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8939 | Test R2=0.7973 | CV R2=0.7971
+2025-12-17 02:39:54,412 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 02:40:04,129 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 02:40:04,129 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 02:40:04,142 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(62324, 4) | Test=(15582, 4)
+2025-12-17 02:40:04,142 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 02:40:04,142 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Outliers
+2025-12-17 02:40:04,142 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 02:44:42,682 [INFO] RentalRegression.RentalRegression: Hyperparameter tuning completed.
+2025-12-17 02:44:42,682 [INFO] RentalRegression.RentalRegression: Best parameters: {'model__n_estimators': 200, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 'sqrt', 'model__max_depth': None}
+2025-12-17 02:45:27,158 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8124 | std=0.0034 (cv=5)
+2025-12-17 02:45:27,160 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8704 | Test R2=0.8131 | CV R2=0.8124
+2025-12-17 02:45:27,160 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:01:45,407 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=linear regression).
+2025-12-17 03:01:45,407 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 03:01:45,423 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 4) | Test=(16375, 4)
+2025-12-17 03:01:45,423 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:01:45,424 [INFO] RentalRegression.RentalRegression: Model built: Linear Regression
+2025-12-17 03:01:45,424 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 03:01:45,831 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 03:01:50,819 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.6718 | std=0.0158 (cv=5)
+2025-12-17 03:01:50,820 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.6715 | Test R2=0.6821 | CV R2=0.6718
+2025-12-17 03:01:50,820 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:01:50,822 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 03:01:50,822 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 03:01:50,844 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 4) | Test=(16375, 4)
+2025-12-17 03:01:50,846 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:01:50,846 [INFO] RentalRegression.RentalRegression: Model built: Random Forest
+2025-12-17 03:01:50,846 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 03:02:58,542 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 03:04:51,453 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8295 | std=0.0039 (cv=5)
+2025-12-17 03:04:51,454 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.9105 | Test R2=0.8335 | CV R2=0.8295
+2025-12-17 03:04:51,454 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:05:04,395 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 03:05:04,396 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 03:05:04,411 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 3) | Test=(16375, 3)
+2025-12-17 03:05:04,412 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:05:04,412 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Rooms
+2025-12-17 03:05:04,413 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 03:06:10,862 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 03:07:59,630 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8165 | std=0.0035 (cv=5)
+2025-12-17 03:07:59,631 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8742 | Test R2=0.8224 | CV R2=0.8165
+2025-12-17 03:07:59,631 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:08:08,416 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 03:08:08,416 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept']
+2025-12-17 03:08:08,435 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(65497, 3) | Test=(16375, 3)
+2025-12-17 03:08:08,436 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:08:08,436 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Property
+2025-12-17 03:08:08,436 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 03:09:14,404 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 03:10:53,186 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.8127 | std=0.0046 (cv=5)
+2025-12-17 03:10:53,187 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8915 | Test R2=0.8183 | CV R2=0.8127
+2025-12-17 03:10:53,188 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:11:02,147 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 03:11:02,147 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 03:11:02,162 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(62324, 4) | Test=(15582, 4)
+2025-12-17 03:11:02,163 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:11:02,163 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Outliers (2.5/97.5)
+2025-12-17 03:11:02,163 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.
+2025-12-17 03:12:06,952 [INFO] RentalRegression.RentalRegression: Model trained successfully.
+2025-12-17 03:13:46,223 [INFO] RentalRegression.RentalRegression: Cross-validation R2: mean=0.7972 | std=0.0040 (cv=5)
+2025-12-17 03:13:46,225 [INFO] RentalRegression.RentalRegression: Evaluation done. Train R2=0.8938 | Test R2=0.7979 | CV R2=0.7972
+2025-12-17 03:13:46,226 [INFO] RentalRegression.RentalRegression: Results stored in class history.
+2025-12-17 03:13:55,731 [INFO] RentalRegression.RentalRegression: RentalRegression initialized (model_type=random forest).
+2025-12-17 03:13:55,731 [INFO] RentalRegression.RentalRegression: Features defined: numeric=['Rooms', 'Surface'] | categorical=['Dept', 'Property Type']
+2025-12-17 03:13:55,742 [INFO] RentalRegression.RentalRegression: Train/test split completed. Train=(62324, 4) | Test=(15582, 4)
+2025-12-17 03:13:55,742 [INFO] RentalRegression.RentalRegression: Preprocessor built successfully.
+2025-12-17 03:13:55,742 [INFO] RentalRegression.RentalRegression: Model built: Random Forest without Outliers
+2025-12-17 03:13:55,742 [INFO] RentalRegression.RentalRegression: Pipeline built successfully.

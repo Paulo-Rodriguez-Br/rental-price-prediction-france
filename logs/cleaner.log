@@ -1,0 +1,40 @@
+2025-12-17 02:27:56,256 [INFO] RentalCleaner.RentalCleaner: Input dataframe loaded from 'C:\Users\paulo\Desktop\DU Data Analytics\Python Avancé\Projet_Python_Avancé\scraping_outputs\rental_database.parquet'. Shape: (94141, 6)
+2025-12-17 02:27:56,256 [INFO] RentalCleaner.RentalCleaner: RentalCleaner initialized.
+2025-12-17 02:27:56,257 [INFO] RentalCleaner.RentalCleaner: Starting full cleaning pipeline.
+2025-12-17 02:27:56,257 [INFO] RentalCleaner.RentalCleaner: Starting ZIP-code filtering from column 'Address'. Rows before: 94141
+2025-12-17 02:27:56,583 [INFO] RentalCleaner.RentalCleaner: ZIP-code filtering done. Rows before=94141, rows after=86601, removed=7540 (8.01%).
+2025-12-17 02:27:56,583 [INFO] RentalCleaner.RentalCleaner: clean_city_from_address successfully finished. Final rows: 86601
+2025-12-17 02:27:56,594 [INFO] RentalCleaner.RentalCleaner: Normalizing numeric columns: Surface, Prix, Pièces
+2025-12-17 02:27:56,901 [INFO] RentalCleaner.RentalCleaner: Numeric columns normalized successfully.
+2025-12-17 02:27:56,901 [INFO] RentalCleaner.RentalCleaner: Starting extreme values filtering. Initial rows: 86601
+2025-12-17 02:27:56,912 [INFO] RentalCleaner.RentalCleaner: Removed 96 rows due to Surface < 9 (0.11%).
+2025-12-17 02:27:56,937 [INFO] RentalCleaner.RentalCleaner: Removed 625 rows due to Prix < 300 (0.72%).
+2025-12-17 02:27:56,946 [INFO] RentalCleaner.RentalCleaner: Removed 4008 rows due to Prix < 5 × Surface (4.63%).
+2025-12-17 02:27:56,948 [INFO] RentalCleaner.RentalCleaner: Extreme values filtering finished. Total removed: 4729 (5.46%). Final dataset size: 81872 rows.
+2025-12-17 02:27:56,949 [INFO] RentalCleaner.RentalCleaner: Renaming columns using mapping: {'Pièces': 'Rooms', 'Type de bien': 'Property Type', 'Prix': 'Price'}
+2025-12-17 02:27:56,953 [INFO] RentalCleaner.RentalCleaner: Columns renamed successfully.
+2025-12-17 02:27:56,953 [INFO] RentalCleaner.RentalCleaner: Adding calculated columns: log (Price), Price per m², log (Price per m²).
+2025-12-17 02:27:56,957 [INFO] RentalCleaner.RentalCleaner: Calculated columns added successfully.
+2025-12-17 02:27:56,961 [INFO] RentalCleaner.RentalCleaner: Cleaning pipeline finished. Final dataframe shape: (81872, 8)
+2025-12-17 02:37:14,768 [INFO] RentalCleaner.RentalCleaner: Removing outliers on column 'log (Price)' using quantiles [0.025, 0.975]. Rows before: 81872
+2025-12-17 02:37:14,779 [INFO] RentalCleaner.RentalCleaner: Outlier removal finished on 'log (Price)'. Kept range: [5.89, 8.41]. Rows after: 77906. Removed: 3966 (4.84%).
+2025-12-17 03:01:44,732 [INFO] RentalCleaner.RentalCleaner: Input dataframe loaded from 'C:\Users\paulo\Desktop\DU Data Analytics\Python Avancé\Projet_Python_Avancé\scraping_outputs\rental_database.parquet'. Shape: (94141, 6)
+2025-12-17 03:01:44,732 [INFO] RentalCleaner.RentalCleaner: RentalCleaner initialized.
+2025-12-17 03:01:44,732 [INFO] RentalCleaner.RentalCleaner: Starting full cleaning pipeline.
+2025-12-17 03:01:44,732 [INFO] RentalCleaner.RentalCleaner: Starting ZIP-code filtering from column 'Address'. Rows before: 94141
+2025-12-17 03:01:45,044 [INFO] RentalCleaner.RentalCleaner: ZIP-code filtering done. Rows before=94141, rows after=86601, removed=7540 (8.01%).
+2025-12-17 03:01:45,044 [INFO] RentalCleaner.RentalCleaner: clean_city_from_address successfully finished. Final rows: 86601
+2025-12-17 03:01:45,049 [INFO] RentalCleaner.RentalCleaner: Normalizing numeric columns: Surface, Prix, Pièces
+2025-12-17 03:01:45,347 [INFO] RentalCleaner.RentalCleaner: Numeric columns normalized successfully.
+2025-12-17 03:01:45,347 [INFO] RentalCleaner.RentalCleaner: Starting extreme values filtering. Initial rows: 86601
+2025-12-17 03:01:45,360 [INFO] RentalCleaner.RentalCleaner: Removed 96 rows due to Surface < 9 (0.11%).
+2025-12-17 03:01:45,380 [INFO] RentalCleaner.RentalCleaner: Removed 625 rows due to Prix < 300 (0.72%).
+2025-12-17 03:01:45,389 [INFO] RentalCleaner.RentalCleaner: Removed 4008 rows due to Prix < 5 × Surface (4.63%).
+2025-12-17 03:01:45,391 [INFO] RentalCleaner.RentalCleaner: Extreme values filtering finished. Total removed: 4729 (5.46%). Final dataset size: 81872 rows.
+2025-12-17 03:01:45,392 [INFO] RentalCleaner.RentalCleaner: Renaming columns using mapping: {'Pièces': 'Rooms', 'Type de bien': 'Property Type', 'Prix': 'Price'}
+2025-12-17 03:01:45,395 [INFO] RentalCleaner.RentalCleaner: Columns renamed successfully.
+2025-12-17 03:01:45,395 [INFO] RentalCleaner.RentalCleaner: Adding calculated columns: log (Price), Price per m², log (Price per m²).
+2025-12-17 03:01:45,400 [INFO] RentalCleaner.RentalCleaner: Calculated columns added successfully.
+2025-12-17 03:01:45,404 [INFO] RentalCleaner.RentalCleaner: Cleaning pipeline finished. Final dataframe shape: (81872, 8)
+2025-12-17 03:11:02,130 [INFO] RentalCleaner.RentalCleaner: Removing outliers on column 'log (Price)' using quantiles [0.025, 0.975]. Rows before: 81872
+2025-12-17 03:11:02,142 [INFO] RentalCleaner.RentalCleaner: Outlier removal finished on 'log (Price)'. Kept range: [5.89, 8.41]. Rows after: 77906. Removed: 3966 (4.84%).
