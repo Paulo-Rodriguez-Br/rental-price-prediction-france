@@ -38,26 +38,29 @@ et permet une **utilisation immédiate**.
 
 ## 🗂️ Structure du projet
 
-📁 RentalScraper.py  
-→ Web scraping des annonces immobilières
+.
+├── RentalScraper.py  
+│   └── Web scraping des annonces immobilières  
 
-📁 RentalCleaner.py  
-→ Nettoyage et préparation des données
+├── RentalCleaner.py  
+│   └── Nettoyage et préparation des données  
 
-📁 RentalStatsViews.py  
-→ Analyse exploratoire et visualisations
+├── RentalStatsViews.py  
+│   └── Analyse exploratoire et visualisations  
 
-📁 RentalRegression.py  
-→ Modélisation, évaluation et interprétabilité (SHAP)
+├── RentalRegression.py  
+│   └── Modélisation, évaluation et interprétabilité (SHAP)  
 
-📁 main.py  
-→ Application Streamlit (orchestration)
+├── main.py  
+│   └── Application Streamlit (orchestration du pipeline)  
 
-📁 scraping_outputs/rental_database.parquet  
-→ Base de données principale
+├── scraping_outputs/  
+│   └── rental_database.parquet  
 
-📁 logs/  
-→ Fichiers de logs
+├── logs/  
+│   └── Fichiers de logs  
+
+└── README.md  
 
 ---
 
